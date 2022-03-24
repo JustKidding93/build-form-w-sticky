@@ -11,6 +11,12 @@ section {
   padding: 1rem;
 }
 
+.inner-container {
+  position: sticky;
+  top: 3.1875rem;
+  z-index: 1;
+}
+
 h2,
 h3 {
   color: var(--red);
@@ -34,12 +40,6 @@ header {
 header svg {
   width: 4.6875rem;
   fill: #fff;
-}
-
-nav {
-  position: sticky;
-  top: 3.1875rem;
-  z-index: 1;
 }
 
 .menu {
