@@ -11,12 +11,6 @@ section {
   padding: 1rem;
 }
 
-.inner-container {
-  position: sticky;
-  top: 3.1875rem;
-  z-index: 1;
-}
-
 h2,
 h3 {
   color: var(--red);
@@ -64,6 +58,9 @@ header svg {
   line-height: 2.1875rem;
   text-align: center;
   flex: 1 0 50%;
+  position: sticky;
+  top: 3.1875rem;
+  z-index: 1;
 }
 
 fieldset {
