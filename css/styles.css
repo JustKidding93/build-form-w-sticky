@@ -36,6 +36,11 @@ header svg {
   fill: #fff;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -55,8 +60,6 @@ header svg {
 }
 
 .menu li {
-  position: sticky;
-  top: 0;
   line-height: 2.1875rem;
   text-align: center;
   flex: 1 0 50%;
